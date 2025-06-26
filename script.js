@@ -142,6 +142,7 @@ const questions = [
     } else {
       selectedBtn.classList.add("incorrect");
     }
+    
   
     Array.from(answerButtons.children).forEach(button => {
       button.disabled = true;
